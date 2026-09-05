@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../../jquery-3.6.3.js"></script>
+    <link rel="stylesheet" href="../../icheck/skins/square/orange.css">
+    <script src="../../icheck/icheck.js"></script>
+</head>
+<body>
+    <input type="checkbox" id="a" name="k" >
+    <label for="a">Pult ot iaderki</label>
+    <br>
+    <input type="radio" id="b" name="k">
+    <label for="b">rasia parasha</label>
+    <br>
+    <input type="radio" id="c" name="k">
+    <label for="c">devochka vensdey</label>
+    <script>
+        $(document).ready(function(){
+            $("input").iCheck({
+                checkboxClass: "icheckbox_square-orange",
+                radioClass: "iradio_square-orange"
+            })
+            $("#a").on("ifChecked", function(){
+                alert("molodez")
+                $("input[name='k']").iCheck("disable")
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(270deg, blue, cyan);
+    color: white;
+    font-family: cursive;
+    height: 100vh;
+}
+
+.wrapper {
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+}
+
+form {
+    width: 180px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnNav {
+    height: 50px;
+    width: 50px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+}
+
+.LRnav {
+   width: 155px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.box {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    transition: background-color 1s, left 1s, top 1s;
+}

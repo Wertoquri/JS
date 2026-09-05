@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../jquery-3.6.3.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+   <div class="container">
+   <form>
+    <ul>
+        <li>
+            <label for="userName">login</label>
+            <input type="text" id="userName" name="userName">
+        </li>
+        <li>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <p class="mistake" id="letter">Букв не виявлено</p>
+            <p class="mistake" id="Uletter">Великих букв не виявлено</p>
+            <p class="mistake" id="digit">Цифр не виявлено</p>
+            <p class="mistake" id="length">Замало символів</p> 
+        </li>
+        <li id="for_btn">
+            <input type="submit" id="submit" value="Зареєструватись">
+        </li>
+    </ul>
+   </form>
+</div>
+</body>
+
+</html>

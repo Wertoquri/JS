@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1em;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+#main {
+    position: relative;
+    background-color: white;
+}
+
+.header {
+    height: 100vh;
+    background: radial-gradient(circle, darkblue 0%, lightblue 100%);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 10px 0;
+}
+
+.header p {
+    text-shadow: 0 0 2px white;
+}
+
+.p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+    background-color: #fff;
+}
+
+.paralax {
+    padding: 400px 0;
+    color: white;
+    background-color: blak;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.bgc1 {
+    background: url("https://phonoteka.org/uploads/posts/2021-06/1624527908_20-phonoteka_org-p-oboi-na-rabochii-stol-standartnie-krasivo-20.png");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    width:100%;
+    height: 140%;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.bgc2 {
+    background: url("https://w.forfun.com/fetch/5a/5a1990d39181006d97036d8ba802b48a.jpeg");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    width:100%;
+    height: 140%;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.bgc3 {
+    background: url("https://cs9.pikabu.ru/post_img/big/2020/05/12/9/1589296652173879650.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    width:100%;
+    height: 140%;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.bgc4 {
+    background: url("https://cs9.pikabu.ru/post_img/big/2020/05/12/9/1589296652173879650.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    width:100%;
+    height: 140%;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.content-wrapper {
+   width: 90%;
+   margin: 0 auto;
+   max-width: 1140px;
+   position: relative;
+   z-index: 2;
+}
+
+.p img {
+    height: 200px;
+}
+
+.p p {
+    max-width: 300px;
+    text-align: center;
+}
+
+.p h2 {
+    margin: 20px 0;
+}
+
+.p2, .p4 {
+    background-color: #74a6ee;
+    color: white;
+}
+
+.p4 {
+    height: 114vh;
+    padding: 0;
+}

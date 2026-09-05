@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0 50px;
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.hour_style {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.minute_style {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.second_style {
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}

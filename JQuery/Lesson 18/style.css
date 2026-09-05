@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10px;
+    font-family: cursive;
+    background: linear-gradient(45deg, blue, purple);
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+form ul {
+    list-style: none;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+#submit {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 5px;
+}
+
+.mistake {
+  color: red;
+  font-weight: bold;
+}

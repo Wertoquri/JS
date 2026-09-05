@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+a {
+color: black
+}
+</style>
+</head>
+<body>
+    <!--
+<ul>
+<li><a href="http://google.com">http://google.com</a></li>
+<li><a href="index.html">index.html</a></li>
+<li><a href="local/image.jpg">local://image.jpg</a></li>
+<li><a href="http://facebook.com">http://facebook.com</a></li>
+<li><a href="http://instagram.com">http://instagram.com</a></li>
+</ul>
+<input type="button" value="змінюй колір" onclick="cg()">
+<input type="button" value="не змінюй колір" onclick="reset()">
+<script>
+function cg(){
+let links = document.querySelectorAll('a');
+for(let link of links){
+let href = link.getAttribute('href');
+if(!href) continue;
+if(!href.includes('://')) continue;
+link.style.color = "orange"
+}
+}
+function reset(){
+let links = document.querySelectorAll('a');
+for(let link of links){
+link.style.color = "black"
+}
+}
+
+
+</script>
+-->
+
+<ol>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+</ol>
+<script defer>
+    let ol = document.querySelector("ol")
+    let li = document.createElement("li")
+    li.innerHTML = "Privet";
+    ol.before(li)
+    ol.after("Poka")
+    ol.append(li)
+    ol.prepend(li)
+
+</script>
+</body>
+</html>

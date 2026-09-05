@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.label {
+    margin: 10px 0;
+}
+
+.range {
+    width: 80%;
+}
+
+.text {
+    width: 12%;
+}
+
+

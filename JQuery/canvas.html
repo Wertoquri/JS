@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #canvas {
+            border: 1px solid black;
+            display: flex;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <script defer>
+        let canvas = document.getElementById("canvas");
+        let a = canvas.getContext("2d");
+
+        canvas.width = 700;
+        canvas.height = 500;
+        /*
+                a.beginPath();
+                a.moveTo(100, 75);
+                a.lineTo(230, 200);
+                a.lineTo(340, 25);
+        
+                a.lineWigth = 1;
+        
+                a.stroke();
+                a.fill()
+                a.closePath();
+        */
+        /*a.beginPath();
+
+        a.arc(350, 250, 100, (10 * Math.PI) / 180, (340 * Math.PI) / 180);
+        a.lineTo(350, 250);
+        a.lineWidth = 5;
+        a.strokeStyle = "black";
+        a.fillStyle = "yellow";
+
+        a.closePath();
+        a.stroke();
+        a.fill();
+
+        a.beginPath();
+        a.fillStyle = "black";
+        a.arc(380, 200, 13, 0, 2 * Math.PI);
+        a.fill();
+        a.closePath();
+
+        a.beginPath();
+        a.clearRect(300, 200, 100, 100);
+        a.closePath();
+*/
+
+        a.strokeRect(215, 115, 266, 266);
+        a.strokeRect(218, 118, 260, 260);
+        a.fillStyle = "orange";
+        a.fillRect(220, 120, 256, 256);
+        a.fillStyle = "black";
+
+        for(let i = 0; i < 8; i+=2){
+            for(let j = 0; j < 8; j+=2){
+                a.fillRect(220 + i * 32, 120 + j * 32, 32, 32);
+                a.fillRect(220 + (i + 1)*32, 120 + (j + 1) * 32, 32, 32);
+            }
+        }
+        
+    </script>
+
+</body>
+
+</html>

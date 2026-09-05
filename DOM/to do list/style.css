@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, purple ,aqua);
+    font-family: cursive;
+    letter-spacing: 2px;
+}
+
+.wrapper {
+    margin:  0 auto;
+    padding: 10px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+} 
+
+#btn {
+  width: 20px;
+  cursor: pointer;
+}
+
+li {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}

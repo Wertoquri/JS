@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.dimension {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    transition: all 1s
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

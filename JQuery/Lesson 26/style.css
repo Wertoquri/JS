@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1em;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.header {
+    height: 100vh;
+    background: radial-gradient(circle, #74a6ee 0%, #485cb2 100%);
+    /*(filter: drop-shadow(0 0 5px white);*/
+    text-align: center;
+    color: white;
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+}
+
+img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.project1, .project3 {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    text-align: center;
+    padding: 200px 0;
+    border-bottom: 1px solid #000000;
+    transition: opacity 1s ease-out;
+    background-color: white;
+    height: 100vh;
+}
+
+.project2, .project4 {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    text-align: center;
+    padding: 200px 0;
+    border-bottom: 1px solid #000000;
+    transition: opacity 1s ease-out;
+    background: radial-gradient(circle, #74a6ee 0%, #485cb2 100%);
+    height: 100vh;
+}
+
+.project.fade-in {
+    opacity: 1;
+}
+
+#main {
+    position: relative;
+    background-color: white;
+
+}
